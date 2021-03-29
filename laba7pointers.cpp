@@ -1,13 +1,9 @@
-﻿#include <iostream>
-#include <string>
-#include <regex>
-using namespace std;
+﻿#include "Header.h"
 
 int main()
 {
     setlocale(0, "");
     string str, search_word, new_word;
-    int i = 0;
     cout << "Введите начальную строку: ";
     getline(cin, str);
     cout << "Введите искомое слово: ";
